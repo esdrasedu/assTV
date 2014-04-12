@@ -1,0 +1,35 @@
+{
+  "name": "assTV",
+  "version": "0.0.0",
+  "description": "Manager applications Raspberry Pi for TV",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "bin/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esdrasedu/assTV.git"
+  },
+  "keywords": [
+    "raspberry",
+    "tv",
+    "smart",
+    "ass",
+    "manager",
+    "application"
+  ],
+  "author": "Esdras Eduardo",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/esdrasedu/assTV/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "git+https://github.com/esdrasedu/grunt-contrib-coffee.git"
+  },
+  "homepage": "https://github.com/esdrasedu/assTV",
+  "dependencies": {
+    "sockjs": "~0.3.8",
+    "node-static": "~0.7.3"
+  }
+}
